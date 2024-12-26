@@ -95,7 +95,7 @@ downloadBtn.addEventListener('click', () => {
         finalCtx.drawImage(frameImg, 0, 0, finalCanvas.width, finalCanvas.height);
         
         const link = document.createElement('a');
-        link.download = 'composited-image.png';
+        link.download = 'attendingHPYM25.png';
         link.href = finalCanvas.toDataURL();
         link.click();
     };
